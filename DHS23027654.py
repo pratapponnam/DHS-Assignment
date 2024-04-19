@@ -183,7 +183,7 @@ df = download_data(url)
 df = process_data(df)
 #Using describe function for mean, stanadrd deviation, min and max value.
 print('Stats of the data', end='\n')
-df.describe()
+print(df.describe())
 
 
 
